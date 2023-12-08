@@ -1,0 +1,192 @@
+body{
+    margin:0;
+    font-family:sans-serif;
+}
+
+/*Header Block. Same background as the body*/
+header {
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    align-items:center;
+    background-color:#1F2937;
+    padding-left:400px;
+    padding-right:400px;
+}
+
+/*Header Logo*/
+header h2{
+    margin:0;
+    padding:5px;
+    font-size:24px;
+    font-weight:900;
+    color:#f9faf8;
+}
+
+/*Header Links*/
+.header-menu {
+    list-style:none;
+    margin:0;
+    display:flex;
+    gap:20px;
+    font-size:18px;
+    color:#e5e7eb;
+}
+
+/*First section of main*/
+.main-first{
+       background-color:#1F2937;
+       padding:100px;
+       margin:0;
+       padding-left:400px;
+       padding-right:400px;
+       display: flex;
+}
+
+/*Hero Text*/
+.heromain{
+    font-size:48px;
+    font-weight:900;
+    color:#f9faf8;
+    margin:0;
+}
+
+/*Text below the Hero Text*/
+.herosecondary{
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+/*Sign Up Button*/
+.button{
+    color:#f9faf8;
+    background-color:#3882f6;
+    padding:8px;
+    border-radius:8px;
+    width: 100px;
+    height: 16px;
+    text-align: center;
+}
+
+/*Placeholder Block*/
+.placeholder{
+    background-color:#6d747d;
+    width: 300px;
+    text-align: center;
+    padding: 120px;
+    margin-left: 40px;
+    color: #e5e7eb;
+}
+
+/* Second Main Section*/
+.main-second{
+    background-color: white;
+    padding: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+/*Information Text on the second section*/
+.main-second p{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.squarelineup{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.placeholdersquare{
+    width:150px;
+    height:150px;
+    border-radius: 15px;
+    margin-bottom:10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882f6;
+}
+
+.squaretext{
+    width: 150px;
+    height: 100px;
+}
+
+.squaretext b{
+    font-weight: 100;
+}
+
+.main-third{
+    background-color:#E5E7EB;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: grid;
+    justify-content: center;
+
+}
+
+.Quote{
+    width: 800px;
+    height: 200px;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0;
+
+}
+
+.Signature{
+    margin: 0;
+    text-align: right;
+}
+
+.main-fourth{
+    background-color: white;
+    padding: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+
+}
+
+.bluebox{
+    background-color:#3882f6;
+    padding: 60px;
+    display: flex;
+    border-radius: 12px;
+    justify-content: center;
+    color: white;
+    gap: 120px;
+    align-items: center;
+}
+
+.bluebox h2{
+    margin: 0;
+}
+
+.bluebox b{
+    font-weight: 50px;
+}
+
+.button2{
+    color:#f9faf8;
+    background-color:#3882f6;
+    padding:8px;
+    border-radius:8px;
+    width: 100px;
+    height: 16px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+}
+
+footer{
+    background-color: #1F2937;
+    color:white;
+    padding:6px;
+    margin: 0;
+    text-align: center;
+}
